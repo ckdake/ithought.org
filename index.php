@@ -73,8 +73,6 @@ if (preg_match('/[a-z\/]+/',$_GET['p'])) {
 		<p>
 		    <b>hosting plans start at</b>
 		    <em>$200/year</em>
-		    <b>consulting starts at</b>
-		    <em>$200/hour</em>
 		</p>
 	    </div>
 	</div>
