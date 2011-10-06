@@ -1,7 +1,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html>
 <head>
-        <title>ithought.org - hosting and consulting services</title>
+        <title>ithought.org - PHP/MySQL hosting</title>
 	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
 	<link rel="stylesheet" type="text/css" href="/inc/style.css" />
 	<script type="text/javascript" src="/inc/jquery-1.2.6.min.js"></script>
@@ -44,12 +44,6 @@
 		<li><a href="/hosting/payment.html">payment</a></li>
 		<li><a href="/hosting/signup.html">signup</a></li>
 	</ul></li>
-	<li><a>CONSULTING</a><ul>
-		<li><a href="/consulting/services.html">services</a></li>
-		<li><a href="/consulting/background.html">background</a></li>
-		<li><a href="/consulting/testimonials.html">testimonials</a></li>
-		<li><a href="/consulting/pricing.html">pricing</a></li>
-	</ul></li>
     </ul>
     </div>
     <div id="content">
@@ -78,9 +72,9 @@ if (preg_match('/[a-z\/]+/',$_GET['p'])) {
 		<h3>PRICING</h3>
 		<p>
 		    <b>hosting plans start at</b>
-		    <em>$100/year</em>
+		    <em>$200/year</em>
 		    <b>consulting starts at</b>
-		    <em>$100/hour</em>
+		    <em>$200/hour</em>
 		</p>
 	    </div>
 	</div>
