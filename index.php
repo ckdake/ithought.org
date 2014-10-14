@@ -69,6 +69,7 @@
   		    <p>
   		      <b>hosting plans start at</b>
   		      <em>$200/year</em>
+            <a href="/hosting/signup.html">Signup now!</a>
   		    </p>
   	    </div>
   	  </div>
