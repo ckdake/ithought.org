@@ -253,3 +253,7 @@ blockquote {
 .quote {
 	border-top: 2px solid #dedede;
 }
+
+#clients img {
+  margin: 15px;
+}
