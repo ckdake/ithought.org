@@ -24,7 +24,7 @@
 <body>
   <div id="main">
     <div id="header">
-  	   <a href="/"><img src="/img/logo.jpg" /></a>
+  	   <a href="/"><img alt="ithought logo" src="/img/logo.jpg" /></a>
   	   <div>
   	      <h3>Premium services, affordable prices</h3>
   	      <p>Whether you are contemplating your first website idea or looking to expand, with
@@ -62,7 +62,7 @@
   	    <div class="box">
   		    <h3>TESTIMONIALS</h3>
   		    <p id="tt"></p>
-  		    <div><img alt="&lt;" id="la" src="/img/arrow_left.gif"><span id="wt">1/12</span><img alt="&rt;" id="ra" src="/img/arrow_right.gif" /></div>
+  		    <div><img alt="previous" id="la" src="/img/arrow_left.gif"><span id="wt">1/12</span><img alt="next" id="ra" src="/img/arrow_right.gif" /></div>
   	    </div>
   	    <div class="box">
   		    <h3>PRICING</h3>
