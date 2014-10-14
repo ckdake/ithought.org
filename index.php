@@ -36,9 +36,9 @@
       <ul id="menu">
         <li><a href="/hosting/services.html">services</a></li>
   	    <li><a href="/hosting/platform.html">platform</a></li>
+        <li><a href="/hosting/clients.html">clients</a></li>
         <li><a href="/hosting/testimonials.html">testimonials</a></li>
   	    <li><a href="/hosting/support.html">support</a></li>
-  	    <li><a href="/hosting/payment.html">payment</a></li>
         <li><a href="/hosting/signup.html">signup</a></li>
       </ul>
     </div>
