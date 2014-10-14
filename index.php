@@ -1,7 +1,8 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!DOCTYPE html>
 <html>
 <head>
   <title>ithought.org - PHP/MySQL website hosting for Atlanta small business</title>
+  <meta charset="UTF-8">
 	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
   <meta name="keywords" content="Atlanta web hosting, Atlanta PHP hosting, small business web hosting" />
 	<link rel="stylesheet" type="text/css" href="/inc/style.css" />
@@ -23,13 +24,13 @@
 <body>
   <div id="main">
     <div id="header">
-  	   <a href="/"><img src="/img/logo.jpg"></a>
-  	   <span>
+  	   <a href="/"><img src="/img/logo.jpg" /></a>
+  	   <div>
   	      <h3>Premium services, affordable prices</h3>
   	      <p>Whether you are contemplating your first website idea or looking to expand, with
   	         ithought you can get high performance web-hosting and professional advice without
   	         spending a fortune.</p>
-  	   </span>
+  	   </div>
     </div>
     <div id="menubar">
       <ul id="menu">
@@ -61,7 +62,7 @@
   	    <div class="box">
   		    <h3>TESTIMONIALS</h3>
   		    <p id="tt"></p>
-  		    <div><img id="la" src="/img/arrow_left.gif"><span id="wt">1/12</span><img id="ra" src="/img/arrow_right.gif" /></div>
+  		    <div><img alt="&lt;" id="la" src="/img/arrow_left.gif"><span id="wt">1/12</span><img alt="&rt;" id="ra" src="/img/arrow_right.gif" /></div>
   	    </div>
   	    <div class="box">
   		    <h3>PRICING</h3>

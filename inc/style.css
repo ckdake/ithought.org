@@ -81,7 +81,8 @@ blockquote {
 	float: left;
 	margin: 15px;
 }
-#header span {
+#header div {
+  display: inline;
 	float: right;
 	margin: 35px;
 	width: 450px;
