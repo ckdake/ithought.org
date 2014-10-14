@@ -77,7 +77,7 @@ if (preg_match('/[a-z\/]+/',$_GET['p'])) {
     </div>
 </div>
 <div id="footer">
-&copy; 1999-2011<a href="http://ckdake.com/">Chris Kelly</a>
+&copy; 1999-2014 <a href="http://ckdake.com/">Chris Kelly</a>
 </div>
 </div>
 </body>
