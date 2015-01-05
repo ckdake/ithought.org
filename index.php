@@ -76,7 +76,7 @@
     </div>
   </div>
   <div id="footer">
-    &copy; 1999-2014 <a href="http://ckdake.com/">Chris Kelly</a>
+    &copy; 1999-2015 <a href="http://ckdake.com/">Chris Kelly</a>
   </div>
 </body>
 </html>
