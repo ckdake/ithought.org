@@ -211,6 +211,7 @@ blockquote {
 	text-decoration: none;
 	width: 97px;
   white-space: nowrap;
+  margin-bottom: -20px;
 }
 
 #menu li a:hover {
