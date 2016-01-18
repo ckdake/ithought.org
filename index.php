@@ -49,7 +49,7 @@
     <div id="content">
       <div id="left">
         <?php
-        if (preg_match('/[a-z\/]+/',$_GET['p'])) {
+        if (isset($_GET['p']) && preg_match('/[a-z\/]+/',$_GET['p'])) {
         	include('content/'.$_GET['p'].'.html');
         } else {
         	include('content/front.html');
