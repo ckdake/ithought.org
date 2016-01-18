@@ -59,7 +59,7 @@
   	  </div>
   	  <div id="right">
         <?php
-        if (preg_match('/hosting/',$_GET['p'])) {
+        if (!preg_match('/photography/',$_GET['p'])) {
         ?>
     	    <div class="box">
     		    <h3>SYSTEM STATUS</h3>
