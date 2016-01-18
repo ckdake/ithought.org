@@ -32,7 +32,7 @@
     </div>
     <div id="menubar">
       <ul id="menu">
-        <li>Hosting<ul>
+        <li><a>Hosting</a><ul>
             <li><a href="/hosting/services.html">services</a></li>
   	        <li><a href="/hosting/platform.html">platform</a></li>
             <li><a href="/hosting/clients.html">clients</a></li>
@@ -40,7 +40,7 @@
   	        <li><a href="/hosting/support.html">support</a></li>
             <li><a href="/hosting/signup.html">signup</a></li>
         </ul></li>
-        <li>Photography<ul>
+        <li><a>Photography</a><ul>
             <li><a href="/photography/services.html">services</a></li>
             <li><a href="/photography/portfolio.html">portfolio</a></li>
         </ul></li>
