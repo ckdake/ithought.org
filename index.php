@@ -27,7 +27,7 @@
   	   <a href="/"><img alt="ithought logo" src="/img/logo.jpg" /></a>
   	   <div>
   	      <h3>Premium services, affordable prices</h3>
-  	      <p>Host your business or personal website in cloud, or document something important to you with photography.</p>
+  	      <p>Host your business or personal website in the cloud, or document something important to you with photography.</p>
   	   </div>
     </div>
     <div id="menubar">
