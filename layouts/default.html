@@ -1,11 +1,11 @@
-<!DOCTYPE html>
-<html>
+<!DOCTYPE HTML>
+<html lang="en">
 <head>
   <title>ithought.org - PHP/MySQL website hosting for Atlanta small business, and photography</title>
   <meta charset="UTF-8">
 	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
   <meta name="keywords" content="Atlanta web hosting, Atlanta PHP hosting, small business web hosting, photography" />
-	<link rel="stylesheet" type="text/css" href="/inc/style.css" />
+	<link rel="stylesheet" href="/inc/style.css">
 	<script type="text/javascript" src="/inc/jquery-1.2.6.min.js"></script>
 	<script type="text/javascript" src="/inc/tools.js"></script>
 	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
@@ -33,44 +33,35 @@
     <div id="menubar">
       <ul id="menu">
         <li><a>Hosting</a><ul>
-            <li><a href="/hosting/services.html">services</a></li>
-  	        <li><a href="/hosting/platform.html">platform</a></li>
-            <li><a href="/hosting/clients.html">clients</a></li>
-            <li><a href="/hosting/testimonials.html">testimonials</a></li>
-  	        <li><a href="/hosting/support.html">support</a></li>
-            <li><a href="/hosting/signup.html">signup</a></li>
+            <li><a href="/hosting/services/">services</a></li>
+  	        <li><a href="/hosting/platform/">platform</a></li>
+            <li><a href="/hosting/clients/">clients</a></li>
+            <li><a href="/hosting/testimonials/">testimonials</a></li>
+  	        <li><a href="/hosting/support/">support</a></li>
+            <li><a href="/hosting/signup/">signup</a></li>
         </ul></li>
         <li><a>Photography</a><ul>
-            <li><a href="/photography/services.html">services</a></li>
-            <li><a href="/photography/portfolio.html">portfolio</a></li>
+            <li><a href="/photography/services/">services</a></li>
+            <li><a href="/photography/portfolio/">portfolio</a></li>
         </ul></li>
       </ul>
     </div>
     <div id="content">
       <div id="left">
-        <?php
-        if (isset($_GET['p']) && preg_match('/[a-z\/]+/',$_GET['p'])) {
-        	include('content/'.$_GET['p'].'.html');
-        } else {
-        	include('content/front.html');
-        }
-        ?>
+        <%= yield %>
   	    <br style="clear: both;" />
   	  </div>
   	  <div id="right">
-        <?php
-        if (!preg_match('/photography/',$_GET['p'])) {
-        ?>
-    	    <div class="box">
+    	    <!-- <div class="box">
     		    <h3>SYSTEM STATUS</h3>
     		    <p id="status"></p>
     		    <div><a href="http://status.ithought.org/">status.ithought.org</a></div>
-    	    </div>
-    	    <div class="box">
+    	    </div> -->
+    	    <!-- <div class="box">
     		    <h3>TESTIMONIALS</h3>
     		    <p id="tt"></p>
     		    <div><img alt="previous" id="la" src="/img/arrow_left.gif"><span id="wt">1/12</span><img alt="next" id="ra" src="/img/arrow_right.gif" /></div>
-    	    </div>
+    	    </div> -->
     	    <div class="box">
     		    <h3>PRICING</h3>
     		    <p>
@@ -79,13 +70,11 @@
               <a href="/hosting/signup.html">Signup now!</a>
     		    </p>
     	    </div>
-        <?php } else { ?>
-        <?php } ?>
   	  </div>
     </div>
   </div>
   <div id="footer">
-    &copy; 1999-2016 <a href="http://ckdake.com/">Chris Kelly</a>
+    &copy; 1999-2022 <a href="http://ckdake.com/">Chris Kelly</a>
   </div>
 </body>
 </html>
