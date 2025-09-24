@@ -27,14 +27,14 @@ var numtest = 11;
 
 function init_testimonial() {
 	curtest = Math.ceil(numtest*Math.random());
-	$("#tt").load("/testimonial.php", {curtest: curtest});
+	// $("#tt").load("/testimonial.php", {curtest: curtest});  // Disabled - testimonial.php doesn't exist
 	$("#wt").text(curtest + "/" + numtest);
 }
 
 function switch_testimonial(increment) {
 	$("#tt").hide();
 	curtest += increment;
-	$("#tt").load("/testimonial.php", {curtest: curtest});
+	// $("#tt").load("/testimonial.php", {curtest: curtest});  // Disabled - testimonial.php doesn't exist
 	$("#wt").text(curtest + "/" + numtest);
 	$("#tt").fadeIn('fast');
 }
@@ -55,8 +55,8 @@ $(document).ready(function() {
         $('#menu > li').bind('mouseout',  menu_timer);
 	$('#la').bind('click', left_arrow);
 	$('#ra').bind('click', right_arrow);
-	init_testimonial();
-	$('#status').load('/status.php');
+	// init_testimonial();  // Disabled - testimonial functionality not available
+	// $('#status').load('/status.php');  // Disabled - status.php doesn't exist
 });
 
 document.onclick = menu_close;
