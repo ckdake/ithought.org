@@ -51,10 +51,10 @@ function left_arrow() {
 }
 
 $(document).ready(function() {
-        $('#menu > li').bind('mouseover', menu_open);
-        $('#menu > li').bind('mouseout',  menu_timer);
-	$('#la').bind('click', left_arrow);
-	$('#ra').bind('click', right_arrow);
+        $('#menu > li').on('mouseover', menu_open);
+        $('#menu > li').on('mouseout',  menu_timer);
+	$('#la').on('click', left_arrow);
+	$('#ra').on('click', right_arrow);
 	// init_testimonial();  // Disabled - testimonial functionality not available
 	// $('#status').load('/status.php');  // Disabled - status.php doesn't exist
 });
